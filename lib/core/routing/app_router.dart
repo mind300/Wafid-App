@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:wafid_app/core/routing/routes.dart';
-import 'package:wafid_app/features/login_screen.dart';
+import 'package:wafid_app/features/auth/forget_pass/forget_password_screen.dart';
+import 'package:wafid_app/features/auth/signin/login_screen.dart';
+import 'package:wafid_app/features/auth/sigup/signup_screen.dart';
 
 import '../../features/splash_screen.dart';
 
@@ -16,6 +18,11 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case Routes.loginScreen:
         return MaterialPageRoute(builder: (_) => const LoginScreen());
+
+        case Routes.registerScreen:
+        return MaterialPageRoute(builder: (_) => const SignupScreen());
+        case Routes.forgetPasswordScreen:
+        return MaterialPageRoute(builder: (_) => const ForgetPasswordScreen());
 
       // case Routes.registerScreen:
       //   return MaterialPageRoute(

@@ -152,6 +152,11 @@ class AppTextStyles {
     fontWeight: FontWeightHelper.regular,
     color: ColorsManager.gray,
   );
+  static TextStyle font14blueMedium = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.btnColor,
+  );
 
   static TextStyle font14LightGrayRegular = TextStyle(
     fontSize: 14.sp,

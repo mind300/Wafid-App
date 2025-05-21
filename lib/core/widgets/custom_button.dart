@@ -1,5 +1,6 @@
 import 'package:bounce/bounce.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../theming/colors.dart';
 
@@ -43,10 +44,10 @@ class CustomButton extends StatelessWidget {
         )
             : Text(
           text,
-          style: const TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.w600,
-            fontSize: 16,
+          style:  TextStyle(
+            color: ColorsManager.whiteColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 16.sp,
           ),
         ),
       ),

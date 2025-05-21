@@ -3,7 +3,7 @@ class AppTexts {
   static const String sigIn = "Sign in";
   static const String sigUp = "Sign up ";
   static const String emailPhoneHint = "Email or Phone Number";
-  static const String PhoneHint = "(+20)000 000 0000";
+  static const String phoneHint = "(+20)000 000 0000";
   static const String phoneNum = "Phone Number";
   static const String emailPhoneEmpty = "Please enter your email or phone";
   static const String emailPhoneValidError = "Please enter a valid email or phone number";
@@ -11,7 +11,8 @@ class AppTexts {
   static const String enterPassEmpty = "Please enter your password";
   static const String enterPass6Char = "Password must be at least 6 characters";
   static const String forgetPassword = "Forgot password?";
-  static const String dontHaveAcc = "Don't have an account? Sign Up";
+  static const String dontHaveAcc = "Don't have an account?";
+  static const String createAcc = "Create Account";
   static const String youHaveAcc = "Already have an account? Sign in";
   static const String boardTitle1 = "Request Ride";
   static const String boardDes1 = "Request a ride get picked up by a nearby community driver";
@@ -62,5 +63,6 @@ class AppTexts {
   static const String nextS = "Next";
   static const String whereLikeToArea ="Where would you like to area?";
   static const String chooseTrans ="Choose your means of transportation";
+  static const String password = "Password";
 
 }
